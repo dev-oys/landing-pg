@@ -73,3 +73,34 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.02em;
   }
+
+  .contact-info {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 2px 0;
+  }
+
+  .address-block {
+    max-width: 300px;       /* control the width */
+    border-radius: 6px;
+    word-wrap: break-word;  /* wrap long lines */
+    display: inline-block;  /* shrink to content width */
+    vertical-align: top;    /* align with other inline elements */
+  }
+  
+  .contact-info {
+    max-width: 320px;       /* set a fixed max width */
+    margin: 0 auto 0px;    /* centre horizontally and add spacing below */
+    padding: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: center;       /* align text inside */
+    word-wrap: break-word;  /* wrap long lines */
+  }
+  
